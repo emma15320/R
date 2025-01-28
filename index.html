@@ -1,0 +1,198 @@
+# R
+TD R LPSIG 2025
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musée de la Résistance du Mont Mouchet</title>
+    
+    <!-- Inclusion de Bootstrap 4.5.2 -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">    
+    <!-- Inclusion de votre fichier CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Inclusion de la bibliothèque Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Inclusion du fichier CSS -->
+    <link rel="stylesheet" href="css/stylepage2.css">
+    <!-- Inclusion de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <header class="bg-dark text-white p-4">
+        <div class="container text-center">
+            <h1 class="display-4">Musée du Mont Mouchet</h1>
+            <p class="lead">Plongez dans l'histoire et découvrez la beauté de ses alentours</p>
+        </div>
+    
+        <!-- Icône avec lien -->
+        <a href="../evalweb1/page1.html" class="icon-link" title="Revenir sur la page précedente">
+            <img src="assets/icon.bmp" alt="Icône vers autre page">
+        </a>
+    </header>
+
+    <!--Information sur le musée du mont mouchet sous forme de texte-->
+    <main class="container my-5">
+        <section>
+            <h1 class="section-title">À propos du musée</h1>
+            <p class="text-justify">
+                Situé au cœur du Massif central, le Musée du Mont Mouchet est un lieu emblématique 
+                qui raconte l’histoire héroïque de la Résistance française pendant la Seconde Guerre 
+                mondiale. Installé dans un environnement naturel et préservé, à la croisée des 
+                départements de la Haute-Loire, du Cantal et de la Lozère, ce site stratégique fut 
+                un haut lieu des maquisards, témoins d’une lutte acharnée pour la liberté.
+    
+                Le musée offre une immersion captivante dans cette période sombre, mettant en lumière 
+                le courage, la solidarité et les sacrifices des résistants. À travers des expositions 
+                riches en documents, objets d’époque et témoignages, il fait revivre les batailles 
+                décisives, comme celles de juin 1944, où les maquis du Mont Mouchet tinrent tête aux 
+                troupes allemandes.
+                
+                En complément de ses expositions, le site propose des sentiers de mémoire, permettant 
+                de parcourir les lieux mêmes où les événements historiques se sont déroulés. 
+                Véritable symbole de résilience et de patriotisme, le Musée du Mont Mouchet perpétue 
+                le devoir de mémoire et invite chaque visiteur à réfléchir sur l’importance de ces 
+                valeurs.
+    
+                <!-- Image affiche Mont Mouchet -->
+                <br><img src="assets/img/1.jpg" class="d-block w-100" alt="Illustration du musée">
+                
+                <h3 class="section-title">Un haut lieu de la Résistance</h3>
+    
+                Pendant l’Occupation, le Mont Mouchet a été un des principaux bastions de la Résistance 
+                dans le Massif central. En 1944, ce site a accueilli plusieurs maquis organisés pour 
+                contrer les forces allemandes et préparer la libération. Les combats du Mont Mouchet, 
+                en juin 1944, ont marqué l’histoire de la Résistance française. Malgré des pertes 
+                importantes, les maquisards ont retardé l’avancée ennemie, offrant un exemple de courage 
+                et de détermination.
+    
+                <br><br><h3 class="section-title">Un musée dédié à la mémoire</h3>
+    
+                Le musée du Mont Mouchet retrace ces événements à travers une collection variée : 
+                documents historiques, photographies, armes, uniformes et témoignages. Une exposition 
+                immersive permet aux visiteurs de mieux comprendre le contexte de la guerre, les stratégies des maquisards et la vie quotidienne de ces résistants.
+    
+                En plus de son exposition permanente, le musée propose des activités pédagogiques pour 
+                les écoles et des conférences pour approfondir l’histoire locale et nationale. Le site 
+                est également un point de départ pour des sentiers de randonnée qui permettent de 
+                découvrir les lieux où se sont déroulés les combats.
+    
+                <br><h3 class="section-title">Un devoir de mémoire</h3>
+    
+                Le musée du Mont Mouchet est bien plus qu’un lieu d’exposition. C’est un symbole de la 
+                Résistance et du sacrifice des hommes et des femmes qui ont combattu pour la liberté. En 
+                visitant ce site, les générations actuelles et futures peuvent perpétuer le souvenir et 
+                mieux comprendre les valeurs de courage et de solidarité portées par la Résistance.
+            </p>
+            <!-- Image portrait -->
+            <div class="portrait-box">
+                <br><img src="assets/img/2.JPG" class="d-block w-100 portrait" alt="Portrait du musée">
+            </div>
+        </section>
+
+        <!--Information sur les activitées alentours au musée du mont mouchet sous forme de texte dans des encadrements-->
+        <section class="mt-5">
+            <h2 class="section-title">Les alentours</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <h5 class="card-title text-center">Paysage du Mont Mouchet</h5>
+                        <div class="card-body">
+                            <h6 class="card-title"><b>Randonnées</b></h6>
+                            <p class="card-text">Explorez les sentiers qui entourent le Mont Mouchet et profitez de vues panoramiques exceptionnelles.</p>
+                            <!-- Image du paysage -->
+                            <img src="assets/img/nat.jpeg" class="d-block w-100" alt="Paysage du Mont Mouchet">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <h5 class="card-title text-center">Forêt autour du Mont Mouchet</h5>
+                        <div class="card-body">
+                            <h6 class="card-title"><b>Nature</b></h6>
+                            <p class="card-text">Découvrez la faune et la flore locales, ainsi que des paysages préservés d'une grande richesse.</p>
+                            <!-- Image de la forêt -->
+                            <img src="assets/img/cerf.jpg" class="d-block w-100" alt="Forêt autour du Mont Mouchet">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <h5 class="card-title text-center">Monument commémoratif</h5>
+                        <div class="card-body">
+                            <h6 class="card-title"><b>Histoire</b></h6>
+                            <p class="card-text">Visitez les monuments commémoratifs et plongez dans l'histoire héroïque de la Résistance française.</p>
+                            <!-- Image du monument -->
+                            <img src="assets/img/monument.JPG" class="d-block w-100" alt="Monument commémoratif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Map-->
+        <div>
+            <section class="my-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title title-color">Situation</h2>
+                        
+                        <!-- Conteneur de la carte -->
+                        <div id="map" style="width: 100%; height: 350px;"></div>
+                        <p>
+                            <!-- Coordonnées GPS -->
+                            <br><span>Latitude: 44.985998</span><br>
+                            <span>Longitude: 3.352792</span><br>
+                        </p>
+                        <p itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+                            <span itemprop="latitude" content="44.985998"></span>
+                            <span itemprop="longitude" content="3.352792"></span>
+                            <!-- Lien pour calculer l'itinéraire -->
+                            <a target="_blank" href="https://maps.google.fr/?saddr=&amp;daddr=44.985998,3.352792" class="button">Calculer mon itinéraire</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!--Information supplémentaires sur le musée du Mont Mouchet-->
+        <p class="text-justify">
+            <section class="mt-5">
+                <h2 class="section-title"><i class="fas fa-circle-info"></i> Informations pratiques</h2>
+                
+                <!-- Informations de contact -->
+                <p class="mt-3 contact-info">
+                    <i class="fas fa-map-marker-alt"></i> Lieu dit Le Mont-Mouchet, 43300 AUVERS<br><br>
+                    <!-- Numéros de téléphone pour contact en saison et hors saison -->
+                    <div class="en-saison"><i class="fas fa-phone-square-alt"></i><strong> En saison : +33 4 71 74 11 91</strong></div><br>
+                    <div class="hors-saison"><i class="fas fa-phone-square-alt"></i><strong> Hors saison : +33 4 71 77 28 30</strong></div><br><br>
+                </p>
+                
+                <h4 class="section-title"><i class="fas fa-euro-sign"></i> Les tarifs :</h4>
+                
+                <!-- Liste des tarifs -->
+                <ul>
+                    <li>Adulte : 6 € A partir de 15 ans</li>
+                    <li>Adulte : 5 € Groupe à partir de 20 personnes</li>
+                    <li>Enfant : 3 € de 10 à 15 ans</li>
+                    <li>Enfant : Gratuit pour les moins de 10 ans</li>
+                </ul>
+            </section>
+        </p>
+    </main>
+
+        <!-- Pied de page -->
+        <footer class="bg-dark text-white text-center py-3">
+            <p>© 2025 Musée du Mont Mouchet. Tous droits réservés.</p>
+        </footer>
+
+        <!-- Inclusion de Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/map2.js"></script>
+</body>
+</html>
